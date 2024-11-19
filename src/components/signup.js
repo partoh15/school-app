@@ -20,6 +20,8 @@ const signup = () => {
             <input
               type="text"
               id="username"
+              name="username"
+              aria-label="Username"
               placeholder="Enter your username"
               className="form-input"
             />
