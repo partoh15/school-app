@@ -1,0 +1,84 @@
+/* General container styles */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0b1736;
+  }
+  
+  .signup-card {
+    background-color: #f1f1f1;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+  }
+  
+  /* University title and logo */
+  .university-title {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #0b1736;
+    margin-bottom: 20px;
+  }
+  
+  .logo-container {
+    margin: 15px 0;
+  }
+  
+  .university-logo {
+    width: 60px;
+    height: 60px;
+  }
+  
+  /* Form styles */
+  .signup-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .signup-form label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  /* Buttons */
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .forgot-password-btn,
+  .sign-in-btn {
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .sign-in-btn {
+    background-color: #0b1736;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .forgot-password-btn:hover,
+  .sign-in-btn:hover {
+    opacity: 0.9;
+  }
+  
