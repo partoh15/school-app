@@ -1,18 +1,17 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import  "../src/components/signup.js"; // Adjust the path if necessary
-import "../src/components/signup.css"; 
+import Signup from "../src/components/signup"; // Adjust the path if necessary
+import "../src/components/signup.css"; // Ensure the path is correct
 
-
-  const App = () => {
-    return (
-      <Router>
-        <Routes>
-          <Route path="/signup" element={<signup />} />
-          <Route path="*" element={<signup />} />
-        </Routes>
-      </Router>
-    );
-  };
+const App = () => {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/signup" element={<Signup />} />
+        <Route path="*" element={<Signup />} />
+      </Routes>
+    </Router>
+  );
+};
 
 export default App;
